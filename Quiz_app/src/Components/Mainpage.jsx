@@ -69,7 +69,7 @@ export default class YourComponentName extends Component {
         <p className='question' style={{color: ""}}>{currentQuestion.question}</p>
         <div className='options'>
           {currentQuestion.choices.map((choice, i) => (
-            <button key={i} className='answer' style={{color : "lightgreen", margin: "20px"}}>
+            <button key={i} className='answer' style={{color : "white", margin: "20px"}}>
               {choice}
             </button>
           ))}
